@@ -1,0 +1,76 @@
+#Java
+*sudo add-apt-repository ppa:webupd8team/java
+*sudo apt-get update
+*sudo apt-get install oracle-java8-installer
+*sudo apt-get install oracle-java8-set-default
+
+#Android Studio
+*Download Android Studio
+*sudo unzip pathToDownloadedFile -d /opt
+*nano ~/.local/share/applications/androidstudio.desktop
+*add lines
+	[Desktop Entry]
+	Version=1.0
+ 	Type=Application
+ 	Name=Android Studio
+	Exec="/opt/android-studio/bin/studio.sh" %f
+	Icon=/opt/android-studio/bin/studio.png
+	Categories=Development;IDE;
+	Terminal=false
+	StartupNotify=true
+ 	StartupWMClass=android-studio
+*Search from launcher and install SDK
+
+#Atom Text Editor
+*sudo add-apt-repository ppa:webupd8team/atom
+*sudo apt-get update
+*sudo apt-get install atom
+
+#BleachBit
+*sudo apt-get update
+*sudo apt-get install bleachbit
+
+#Python IDLE
+*sudo apt-get install idle3
+
+#Mailspring
+*Download from software center
+
+#Netbeans
+*Install Java
+*sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+*sudo apt-get update
+*sudo apt-get install netbeans
+
+#Gnome Tweak Tool
+* sudo apt install gnome-tweak-tool
+* sudo apt install unity-tweak-tool
+
+#Top Tweak Tools
+*sudo apt install git && git clone https://github.com/tliron/install-gnome-themes
+*Navigate to home folder
+*~/install-gnome-themes/install-gnome-themes
+
+#LAMP Server
+*sudo apt-get install apache2
+*sudo apt-get install mysql-server(started with mysql -u root -p in terminal)
+*sudo apt-get install phpXX libapache2-mod-phpXX( where XX is the php version)
+*sudo /etc/init.d/apache2 restart
+*Check php  http://localhost/
+*Find the php.ini files and enable error reporting. 
+	eg set all display_errors = on in  /etc/phpXX/cli/ and in /etc/phpXX/apache2/
+*gain write privilages for var/www/html
+	Open Terminal
+	type sudo nautilus hit enter
+	Navigate to the target file or folder you want to change permissions (/var/www)
+	Right click the file or folder (html folder)
+	Select Properties
+	Click on the Permissions tab
+	Click on the Access files in the Others section
+	Select “Create and delete files”
+	Click Change Permissions for Enclosed Files
+	In the resulting window, Select Read and Write under Files and Create and delete files underFolders
+	Click Change
+	Click Close.
+*Save your local sites in /var/www/html
+

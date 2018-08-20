@@ -1,8 +1,8 @@
 #Java
 *sudo add-apt-repository ppa:webupd8team/java
-*sudo apt-get update
-*sudo apt-get install oracle-java8-installer
-*sudo apt-get install oracle-java8-set-default
+*sudo apt update
+*sudo apt install oracle-java8-installer
+*sudo apt install oracle-java8-set-default
 
 #Android Studio
 *Download Android Studio
@@ -23,15 +23,15 @@
 
 #Atom Text Editor
 *sudo add-apt-repository ppa:webupd8team/atom
-*sudo apt-get update
-*sudo apt-get install atom
+*sudo apt update
+*sudo apt install atom
 
 #BleachBit
-*sudo apt-get update
-*sudo apt-get install bleachbit
+*sudo apt update
+*sudo apt install bleachbit
 
 #Python IDLE
-*sudo apt-get install idle3
+*sudo apt install idle3
 
 #Mailspring
 *Download from software center
@@ -39,8 +39,8 @@
 #Netbeans
 *Install Java
 *sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
-*sudo apt-get update
-*sudo apt-get install netbeans
+*sudo apt update
+*sudo apt install netbeans
 
 #Gnome Tweak Tool
 * sudo apt install gnome-tweak-tool
@@ -52,9 +52,9 @@
 *~/install-gnome-themes/install-gnome-themes
 
 #LAMP Server
-*sudo apt-get install apache2
-*sudo apt-get install mysql-server(started with mysql -u root -p in terminal)
-*sudo apt-get install phpXX libapache2-mod-phpXX( where XX is the php version)
+*sudo apt install apache2
+*sudo apt install mysql-server(started with mysql -u root -p in terminal)
+*sudo apt install phpXX libapache2-mod-phpXX( where XX is the php version)
 *sudo /etc/init.d/apache2 restart
 *Check php  http://localhost/
 *Find the php.ini files and enable error reporting. 
